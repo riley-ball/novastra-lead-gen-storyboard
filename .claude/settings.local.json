@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Expand-Archive -Path ''components.zip'' -DestinationPath ''components'' -Force\")",
+      "Bash(powershell -Command \"Expand-Archive -Path ''guidelines.zip'' -DestinationPath ''guidelines'' -Force\")",
+      "Bash(powershell -Command \"Expand-Archive -Path ''styles.zip'' -DestinationPath ''styles'' -Force\")",
+      "Bash(dir:*)",
+      "Bash(powershell:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
